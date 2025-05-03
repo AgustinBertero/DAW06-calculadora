@@ -57,8 +57,12 @@ class Calculadora {
 
 // Ejemplo de uso
 $calc = new Calculadora();
+//EJEMPLO SUMA
 echo "Suma: " . $calc->sumar(5, 3) . "\n";
+//EJEMPLO RESTA
 echo "Resta: " . $calc->restar(5, 3) . "\n";
+//EJEMPLO MULTIPLICACION
 echo "Multiplicación: " . $calc->multiplicar(5, 3) . "\n";
+//EJEMPLPO DIVISION
 echo "División: " . $calc->dividir(5, 3) . "\n";
 ?>
